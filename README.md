@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <strong>A modern archive utility for macOS.</strong><br>
+  <strong>A modern native archiver for macOS.</strong><br>
   Create, browse and extract archives with a native macOS experience.
 </p>
 
@@ -20,34 +20,49 @@
 
 ## About
 
-This repository is the public home of **SnipZip**.
+Welcome to the public home of **SnipZip**.
 
-The application itself is **closed source** and is **not hosted in this repository**. Instead, this repository is used to:
+This repository is where you can:
 
 - 🐞 Report bugs
 - 💡 Request features
 - 💬 Discuss ideas and workflows
-- 📢 Publish release notes
-- 🌐 Host the project website
-- 📚 Share documentation
+- 📢 Read release notes
+- 🌐 Visit the project website
+- 📚 Browse documentation
+
+SnipZip is proprietary software and its source code is not published in this repository.
+
+---
+
+## Download
+
+SnipZip is distributed **exclusively through the Mac App Store**.
+
+The app is currently available through **TestFlight** while development continues.
+
+- 🍎 **Mac App Store:** *Coming soon*
+- ✈️ **TestFlight Beta:** *Coming soon*
 
 ---
 
 ## Reporting Issues
 
-Before opening a new issue, please search existing issues to see if it has already been reported.
+Before opening a new issue, please search existing issues to see whether it has already been reported.
 
 When reporting a bug, including the following information is helpful:
 
 - SnipZip version
 - macOS version
-- Archive format (ZIP, 7Z, RAR, etc.)
-- Steps to reproduce the problem
+- Archive format (ZIP, 7Z, RAR, TAR, etc.)
+- Steps to reproduce the issue
 - Expected behaviour
 - Actual behaviour
-- Screenshots or logs (if applicable)
+- Screenshots, logs or a sample archive (if applicable)
 
-Please **remove any personal or sensitive information** before uploading screenshots or log files.
+Please **remove any personal or sensitive information** before uploading screenshots, log files or sample archives.
+
+If the issue only occurs with a specific archive, consider creating a small sample archive that reproduces the problem instead of uploading personal files.
 
 ---
 
@@ -55,7 +70,7 @@ Please **remove any personal or sensitive information** before uploading screens
 
 Have an idea that would improve SnipZip?
 
-Open a Feature Request or start a Discussion - we'd love to hear your suggestions.
+Open a **Feature Request** or start a **Discussion**—we'd love to hear your suggestions.
 
 ---
 
@@ -63,7 +78,7 @@ Open a Feature Request or start a Discussion - we'd love to hear your suggestion
 
 If you've discovered a security vulnerability, **please do not create a public issue**.
 
-Instead, contact us privately at:
+Instead, contact us privately:
 
 **support@snipzip.app**
 
@@ -71,9 +86,9 @@ Instead, contact us privately at:
 
 ## Support
 
-For general support, bug reports and feature requests, please use GitHub Issues or Discussions.
+For bug reports, feature requests and general questions, please use **GitHub Issues** or **GitHub Discussions**.
 
-If your question contains personal information or private files, contact:
+If your message contains personal information, private files or anything that should remain confidential, please contact:
 
 **support@snipzip.app**
 
@@ -81,14 +96,14 @@ If your question contains personal information or private files, contact:
 
 ## Website
 
-Visit the project website:
+Learn more about SnipZip at:
 
-https://snipzip.app
+**https://snipzip.app**
 
 ---
 
 ## License
 
-Unless otherwise stated, the contents of this repository (documentation, website content and artwork) are © iRand OÜ. All rights reserved.
+Unless otherwise stated, the contents of this repository (including the website, documentation and artwork) are © iRand OÜ. All rights reserved.
 
 The SnipZip application is proprietary software and is not distributed through this repository.
