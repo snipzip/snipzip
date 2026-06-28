@@ -1,0 +1,24 @@
+{
+  "name": "SnipZip",
+  "short_name": "SnipZip",
+  "icons": [
+    {
+      "src": "assets/icons/app-icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/icons/apple-touch-icon.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "favicon.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#050b18",
+  "background_color": "#050b18",
+  "display": "standalone"
+}
