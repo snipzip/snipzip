@@ -104,6 +104,6 @@ Learn more about SnipZip at:
 
 ## License
 
-Unless otherwise stated, the contents of this repository (including the website, documentation and artwork) are © iRand OÜ. All rights reserved.
+© iRand OÜ. All rights reserved.
 
 The SnipZip application is proprietary software and is not distributed through this repository.
