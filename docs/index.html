@@ -4,18 +4,18 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>SnipZip — Archive Utility for macOS</title>
-  <meta name="description" content="SnipZip is a native macOS archive utility for creating clean ZIP files, browsing archives, previewing files, and extracting only what you need." />
+  <meta name="description" content="SnipZip is a native macOS utility for clean ZIP creation, nested archive browsing, file previews, repeatable workflows, and selective extraction." />
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://snipzip.app/" />
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="SnipZip" />
   <meta property="og:title" content="SnipZip — Archive Utility for macOS" />
-  <meta property="og:description" content="Create clean ZIP files, browse archives, preview files, and extract only what you need with SnipZip for macOS." />
+  <meta property="og:description" content="Create clean ZIP files, browse nested archives, preview files, build workflows, and extract only what you need with SnipZip for macOS." />
   <meta property="og:url" content="https://snipzip.app/" />
   <meta property="og:image" content="https://snipzip.app/assets/icons/app-icon.png" />
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:title" content="SnipZip — Archive Utility for macOS" />
-  <meta name="twitter:description" content="Create clean ZIP files, browse archives, preview files, and extract only what you need with SnipZip for macOS." />
+  <meta name="twitter:description" content="Create clean ZIP files, browse nested archives, preview files, build workflows, and extract only what you need with SnipZip for macOS." />
   <meta name="twitter:image" content="https://snipzip.app/assets/icons/app-icon.png" />
   <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico?v=4" />
   <link rel="icon" type="image/x-icon" href="./favicon.ico?v=4" />
@@ -30,7 +30,7 @@
       "name": "SnipZip",
       "applicationCategory": "UtilitiesApplication",
       "operatingSystem": "macOS",
-      "description": "SnipZip is a native macOS archive utility for creating clean ZIP files, browsing archives, previewing files, and extracting only what you need.",
+      "description": "SnipZip is a native macOS utility for clean ZIP creation, nested archive browsing, file previews, repeatable workflows, and selective extraction.",
       "url": "https://snipzip.app/",
       "image": "https://snipzip.app/assets/icons/app-icon.png",
       "offers": {
@@ -110,6 +110,22 @@
       </div>
     </section>
 
+    <section class="section-grid reverse">
+      <div class="screenshot-card">
+        <img src="assets/screenshots/nested-archive.png" alt="SnipZip browsing a BZ2 archive nested inside another archive" />
+      </div>
+      <div class="copy">
+        <p class="eyebrow">Nested archives</p>
+        <h2>Open archives inside archives.</h2>
+        <p>Browse through nested archives in place, without extracting each layer to your Mac first.</p>
+        <ul class="check-list">
+          <li>Inspect nested files before extracting</li>
+          <li>Keep your workspace free of temporary folders</li>
+          <li>Extract only the files you need</li>
+        </ul>
+      </div>
+    </section>
+
     <section id="formats" class="formats-section">
       <p class="eyebrow">Format support</p>
       <h2>More than ZIP.</h2>
@@ -119,6 +135,22 @@
       </div>
       <p class="format-support-line">Supports 20+ archive formats.*</p>
       <p class="format-footnote">* ZIP, 7Z, RAR, TAR, TAR.GZ/TGZ, TAR.BZ2/TBZ, TAR.XZ/TXZ, TAR.ZST/TZS, TAR.BR, TAR.LZ4, TAR.LZ/TLZ, TAR.LZO/TZO, TAR.LRZ/TLRZ, GZ, BZ2, XZ, ZST/ZSTD, BR, LZ4, LZMA, Z, LZIP, LZOP, LRZIP, ISO, CAB, CPIO, AR, LHA/LZH, MTREE, WARC, UU/UUE, XAR, DEB, RPM, split archives, and more.</p>
+    </section>
+
+    <section class="section-grid">
+      <div class="copy">
+        <p class="eyebrow">Workflow Builder</p>
+        <h2>Build archive workflows that run your way.</h2>
+        <p>Chain archive actions into a repeatable workflow, then export the final result with the format and options you choose.</p>
+        <div class="mini-features">
+          <div><strong>Compose actions</strong><span>Combine compression, archive creation and export steps.</span></div>
+          <div><strong>Set the order</strong><span>Arrange every action before the final export.</span></div>
+          <div><strong>Reuse the workflow</strong><span>Save a dependable process for recurring archive jobs.</span></div>
+        </div>
+      </div>
+      <div class="screenshot-card">
+        <img src="assets/screenshots/workflow builder.png" alt="SnipZip Workflow Builder showing archive actions and export options" />
+      </div>
     </section>
 
     <section id="pro" class="pro-section">
@@ -146,6 +178,7 @@
             <li>Encrypt ZIP and 7Z archives</li>
             <li>Split archives</li>
             <li>Archive preview</li>
+            <li>Workflow Builder</li>
             <li>Command-line tools</li>
           </ul>
         </div>
