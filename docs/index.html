@@ -4,18 +4,18 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>SnipZip — Archive Utility for macOS</title>
-  <meta name="description" content="SnipZip is a native macOS utility for clean ZIP creation, nested archive browsing, file previews, repeatable workflows, and selective extraction." />
+  <meta name="description" content="SnipZip is a native macOS archive utility for clean ZIP creation, archive browsing, and selective extraction. Join the free beta on TestFlight." />
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://snipzip.app/" />
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="SnipZip" />
   <meta property="og:title" content="SnipZip — Archive Utility for macOS" />
-  <meta property="og:description" content="Create clean ZIP files, browse nested archives, preview files, build workflows, and extract only what you need with SnipZip for macOS." />
+  <meta property="og:description" content="Create clean ZIP files, inspect archives, and extract only what you need with SnipZip for macOS. Join the free beta on TestFlight." />
   <meta property="og:url" content="https://snipzip.app/" />
   <meta property="og:image" content="https://snipzip.app/assets/icons/app-icon.png" />
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:title" content="SnipZip — Archive Utility for macOS" />
-  <meta name="twitter:description" content="Create clean ZIP files, browse nested archives, preview files, build workflows, and extract only what you need with SnipZip for macOS." />
+  <meta name="twitter:description" content="Create clean ZIP files, inspect archives, and extract only what you need with SnipZip for macOS. Join the free beta on TestFlight." />
   <meta name="twitter:image" content="https://snipzip.app/assets/icons/app-icon.png" />
   <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico?v=4" />
   <link rel="icon" type="image/x-icon" href="./favicon.ico?v=4" />
@@ -30,14 +30,9 @@
       "name": "SnipZip",
       "applicationCategory": "UtilitiesApplication",
       "operatingSystem": "macOS",
-      "description": "SnipZip is a native macOS utility for clean ZIP creation, nested archive browsing, file previews, repeatable workflows, and selective extraction.",
+      "description": "SnipZip is a native macOS archive utility for clean ZIP creation, archive browsing, and selective extraction.",
       "url": "https://snipzip.app/",
-      "image": "https://snipzip.app/assets/icons/app-icon.png",
-      "offers": {
-        "@type": "Offer",
-        "price": "0",
-        "priceCurrency": "USD"
-      }
+      "image": "https://snipzip.app/assets/icons/app-icon.png"
     }
   </script>
 </head>
@@ -53,21 +48,23 @@
       <a href="#pro">Pro</a>
       <a href="#privacy">Privacy</a>
     </nav>
+    <a class="header-cta" href="https://testflight.apple.com/join/2ZzjVSYj">Join beta</a>
   </header>
 
   <main id="top">
     <section class="hero section-grid">
       <div class="copy">
         <p class="eyebrow">Native macOS archive utility</p>
-        <h1>One app for every archive.</h1>
-        <p class="lede">Create, browse and extract archives with a modern, native macOS experience.</p>
+        <h1>Archives, without the hassle.</h1>
+        <p class="lede">Create clean ZIPs, inspect what is inside, and extract only what you need.</p>
         <div class="cta-row">
-          <a class="button primary" href="https://testflight.apple.com/join/2ZzjVSYj">Test using TestFlight</a>
+          <a class="button primary" href="https://testflight.apple.com/join/2ZzjVSYj">Join the free beta</a>
           <a class="button secondary" href="#features">See features</a>
         </div>
+        <p class="beta-note">SnipZip is currently in beta on TestFlight. The Mac App Store release is coming soon.</p>
       </div>
       <div class="screenshot-card large">
-        <img src="assets/screenshots/browse_preview.png" alt="SnipZip archive browser with a preview drawer open" />
+        <img src="assets/screenshots/create.png" alt="SnipZip create archives screen" />
       </div>
     </section>
 
@@ -80,30 +77,30 @@
 
     <section id="features" class="section-grid reverse">
       <div class="screenshot-card">
-        <img src="assets/screenshots/create.png" alt="SnipZip create archives screen" />
+        <img src="assets/screenshots/filter_extract.png" alt="SnipZip filtering archive items for selective extraction" />
       </div>
       <div class="copy">
-        <p class="eyebrow">Clean by default</p>
-        <h2>Share clean ZIP files.</h2>
-        <p>SnipZip automatically removes hidden macOS metadata such as <code>.DS_Store</code>, <code>__MACOSX</code>, AppleDouble files and resource forks.</p>
-        <ul class="check-list">
-          <li>No extra folders</li>
-          <li>No hidden Mac metadata</li>
-          <li>Ready for Windows, Linux and the web</li>
-        </ul>
+        <p class="eyebrow">Search and selective extraction</p>
+        <h2>Find it. Extract it. Leave the rest.</h2>
+        <p>Search filenames and paths, then extract only the files or folders you need without unpacking everything first.</p>
+        <div class="mini-features">
+          <div><strong>Search first</strong><span>Filter by filename inside the archive.</span></div>
+          <div><strong>Extract only matches</strong><span>Choose exactly which files or folders to save.</span></div>
+          <div><strong>Keep your structure</strong><span>Preserve folders or flatten selected files.</span></div>
+        </div>
       </div>
     </section>
 
     <section class="section-grid">
       <div class="copy">
-        <p class="eyebrow">Large archives</p>
-        <h2>Work faster with large archives.</h2>
-        <p>Search, preview and extract exactly what you need without unpacking everything first.</p>
-        <div class="mini-features">
-          <div><strong>Search first</strong><span>Filter by filename inside the archive.</span></div>
-          <div><strong>Preview instantly</strong><span>View images, PDFs and text files.</span></div>
-          <div><strong>Skip the rest</strong><span>Extract only selected files or folders.</span></div>
-        </div>
+        <p class="eyebrow">Archive preview <span class="feature-badge">Pro</span></p>
+        <h2>See files before you extract them.</h2>
+        <p>Preview images, PDFs and text files directly inside an archive before deciding what to save.</p>
+        <ul class="check-list">
+          <li>Inspect file contents in place</li>
+          <li>Open a selected file in its default app</li>
+          <li>Extract only when you are ready</li>
+        </ul>
       </div>
       <div class="screenshot-card">
         <img src="assets/screenshots/previewwindow.png" alt="SnipZip preview window showing an archive item" />
@@ -115,7 +112,7 @@
         <img src="assets/screenshots/nested-archive.png" alt="SnipZip browsing a BZ2 archive nested inside another archive" />
       </div>
       <div class="copy">
-        <p class="eyebrow">Nested archives</p>
+        <p class="eyebrow">Nested archives <span class="feature-badge">Pro</span></p>
         <h2>Open archives inside archives.</h2>
         <p>Browse through nested archives in place, without extracting each layer to your Mac first.</p>
         <ul class="check-list">
@@ -129,17 +126,37 @@
     <section id="formats" class="formats-section">
       <p class="eyebrow">Format support</p>
       <h2>More than ZIP.</h2>
-      <p>Open, browse and extract the archive formats you actually run into.</p>
+      <p>Open, browse and extract the archive formats you actually run into. Create clean ZIPs for free.</p>
       <div class="format-hero-pills" aria-label="Popular supported formats">
         <span>ZIP</span><span>7Z</span><span>RAR</span><span>TAR</span><span>ISO</span><span>CAB</span><span>+ many more</span>
       </div>
-      <p class="format-support-line">Supports 20+ archive formats.*</p>
-      <p class="format-footnote">* ZIP, 7Z, RAR, TAR, TAR.GZ/TGZ, TAR.BZ2/TBZ, TAR.XZ/TXZ, TAR.ZST/TZS, TAR.BR, TAR.LZ4, TAR.LZ/TLZ, TAR.LZO/TZO, TAR.LRZ/TLRZ, GZ, BZ2, XZ, ZST/ZSTD, BR, LZ4, LZMA, Z, LZIP, LZOP, LRZIP, ISO, CAB, CPIO, AR, LHA/LZH, MTREE, WARC, UU/UUE, XAR, DEB, RPM, split archives, and more.</p>
+      <p class="format-support-line">Open and extract 20+ archive formats.*</p>
+      <p class="format-footnote">* Includes ZIP, 7Z, RAR, TAR, ISO, CAB, and more. Create additional archive formats with SnipZip Pro.</p>
     </section>
 
     <section class="section-grid">
       <div class="copy">
-        <p class="eyebrow">Workflow Builder</p>
+        <p class="eyebrow">Apple Shortcuts</p>
+        <h2>Put archive work on autopilot.</h2>
+        <p>Use SnipZip actions in Apple Shortcuts to create clean ZIPs, inspect archives, and extract exactly the files you need.</p>
+        <div class="mini-features">
+          <div><strong>Create and extract</strong><span>Build repeatable archive tasks into your shortcuts.</span></div>
+          <div><strong>Inspect and search</strong><span>Check archive contents before your shortcut extracts anything.</span></div>
+          <div><strong>Stay in control</strong><span>Choose destinations, matching files and folder handling.</span></div>
+        </div>
+        <p class="availability-note">Available in Apple Shortcuts on macOS 26 and later. Pro adds previews, advanced format creation and saved workflows.</p>
+      </div>
+      <div class="screenshot-card">
+        <img src="assets/screenshots/shortcuts.png" alt="Apple Shortcuts showing SnipZip archive actions and an Extract Project Archive shortcut" />
+      </div>
+    </section>
+
+    <section class="section-grid reverse">
+      <div class="screenshot-card">
+        <img src="assets/screenshots/workflow builder.png" alt="SnipZip Workflow Builder showing archive actions and export options" />
+      </div>
+      <div class="copy">
+        <p class="eyebrow">Workflow Builder <span class="feature-badge">Pro</span></p>
         <h2>Build archive workflows that run your way.</h2>
         <p>Chain archive actions into a repeatable workflow, then export the final result with the format and options you choose.</p>
         <div class="mini-features">
@@ -148,26 +165,24 @@
           <div><strong>Reuse the workflow</strong><span>Save a dependable process for recurring archive jobs.</span></div>
         </div>
       </div>
-      <div class="screenshot-card">
-        <img src="assets/screenshots/workflow builder.png" alt="SnipZip Workflow Builder showing archive actions and export options" />
-      </div>
     </section>
 
     <section id="pro" class="pro-section">
       <div class="copy centered">
         <p class="eyebrow">SnipZip Pro</p>
         <h2>One-time purchase. No subscription.</h2>
-        <p>Upgrade once to unlock advanced archive features.</p>
+        <p>Available with the Mac App Store release. Upgrade once to unlock advanced archive features.</p>
       </div>
       <div class="comparison">
         <div class="plan">
           <h3>Free</h3>
           <ul>
             <li>Create clean ZIP archives</li>
-            <li>Browse and extract archives</li>
+            <li>Browse, search and extract archives</li>
             <li>Open encrypted archives</li>
             <li>Password-protected extraction</li>
             <li>Finder integration</li>
+            <li>Apple Shortcuts: create, inspect and extract</li>
           </ul>
         </div>
         <div class="plan pro">
@@ -175,10 +190,12 @@
           <ul>
             <li>Everything in Free</li>
             <li>Create 7Z, TAR, ISO and more</li>
-            <li>Encrypt ZIP and 7Z archives</li>
+            <li>Create password-protected archives</li>
             <li>Split archives</li>
-            <li>Archive preview</li>
+            <li>Preview files in archives</li>
+            <li>Browse nested archives</li>
             <li>Workflow Builder</li>
+            <li>Apple Shortcuts: previews and workflows</li>
             <li>Command-line tools</li>
           </ul>
         </div>
@@ -189,13 +206,14 @@
       <div>
         <p class="eyebrow">Private by design</p>
         <h2>Your files stay on your Mac.</h2>
-        <p>No analytics. No telemetry. No account. No uploads required. SnipZip works locally in the macOS sandbox.</p>
+        <p>Your files are processed locally in the macOS sandbox. No account. No uploads required. No in-app analytics or telemetry.</p>
       </div>
     </section>
 
     <section id="download" class="download-section">
       <h2>Ready to try SnipZip?</h2>
-      <a class="button primary" href="https://testflight.apple.com/join/2ZzjVSYj">Test using TestFlight</a>
+      <p>Join the free beta today. The Mac App Store release is coming soon.</p>
+      <a class="button primary" href="https://testflight.apple.com/join/2ZzjVSYj">Join the free beta</a>
     </section>
   </main>
 
