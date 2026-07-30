@@ -41,7 +41,7 @@ SnipZip is distributed **exclusively through the Mac App Store**.
 
 The app is currently available through **TestFlight** while development continues.
 
-- 🍎 **Mac App Store:** *Coming soon*
+- 🍎 **Mac App Store:** <a href="https://tools.applemediaservices.com/api/badges/download-on-the-mac-app-store/black/en-us?size=250x83">Link</a>
 - ✈️ **TestFlight Beta:**  <a href="https://testflight.apple.com/join/2ZzjVSYj">Link</a>
 
 ---
