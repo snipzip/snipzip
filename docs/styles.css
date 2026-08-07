@@ -148,6 +148,22 @@ h1::first-line, h2::first-line { color: var(--text); }
 .screenshot-card img.preview-composition {
   transform: none;
 }
+.quick-look-window {
+  width: 100%;
+  aspect-ratio: 1660 / 1248;
+  border-radius: 18px;
+  clip-path: inset(0 round 18px);
+  box-shadow: 0 22px 55px rgba(0,0,0,.38);
+  isolation: isolate;
+  overflow: hidden;
+}
+.screenshot-card .quick-look-window img.quick-look-screenshot {
+  width: 106.627%;
+  max-width: none;
+  max-height: none;
+  border-radius: 0;
+  transform: translate(-3.107%, -4.506%);
+}
 .screenshot-card img.workflow-screenshot {
   transform: translateY(2%) scale(1.12);
 }
