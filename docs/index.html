@@ -22,7 +22,8 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./favicon.png?v=4" />
   <link rel="apple-touch-icon" href="./assets/icons/apple-touch-icon.png?v=4" />
   <link rel="manifest" href="./site.webmanifest?v=4" />
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://tools.applemediaservices.com" crossorigin />
+  <link rel="stylesheet" href="styles.css?v=11" />
   <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -45,35 +46,50 @@
 <body>
   <header class="site-header">
     <a class="brand" href="#top" aria-label="SnipZip home">
-      <span class="app-icon"><img src="assets/icons/app-icon.png" alt="" /></span>
+      <span class="app-icon"><img src="assets/icons/app-icon-84.webp" width="84" height="84" alt="" /></span>
       <span>SnipZip</span>
     </a>
-    <nav>
+    <nav class="desktop-nav" aria-label="Primary navigation">
       <a href="#features">Features</a>
-      <a href="#formats">Formats</a>
+      <a href="formats.html">Formats</a>
       <a href="#pro">Pro</a>
       <a href="faq.html">FAQ</a>
       <a href="#privacy">Privacy</a>
     </nav>
-    <a class="header-cta" href="https://apps.apple.com/us/app/snipzip/id6782188699?mt=12">Download</a>
+    <div class="header-actions">
+      <a class="header-cta" href="https://apps.apple.com/us/app/snipzip/id6782188699?mt=12">Download</a>
+      <details class="mobile-menu">
+        <summary>Menu</summary>
+        <nav aria-label="Mobile navigation">
+          <a href="#features">Features</a>
+          <a href="formats.html">Formats</a>
+          <a href="#pro">Pro</a>
+          <a href="faq.html">FAQ</a>
+          <a href="#privacy">Privacy</a>
+        </nav>
+      </details>
+    </div>
   </header>
 
   <main id="top">
     <section class="hero section-grid">
       <div class="copy">
         <p class="eyebrow">Native macOS archive utility</p>
-        <h1>Archives, without the hassle.</h1>
+        <h1>Open, browse, and create archives on your Mac.</h1>
         <p class="lede">Create ZIPs and other archive formats, inspect what’s inside, and extract only what you need.</p>
         <div class="cta-row">
           <a class="app-store-badge-link" href="https://apps.apple.com/us/app/snipzip/id6782188699?mt=12" aria-label="Download SnipZip on the Mac App Store">
-            <img class="app-store-badge" src="https://tools.applemediaservices.com/api/badges/download-on-the-mac-app-store/black/en-us?size=250x83" alt="Download on the Mac App Store" />
+            <img class="app-store-badge" src="https://tools.applemediaservices.com/api/badges/download-on-the-mac-app-store/black/en-us?size=250x83" width="250" height="83" decoding="async" alt="Download on the Mac App Store" />
           </a>
           <a class="button secondary" href="#features">See features</a>
         </div>
         <p class="store-note">Available now on the Mac App Store. Start free and upgrade once to unlock SnipZip Pro.</p>
       </div>
       <div class="screenshot-card large">
-        <img src="assets/screenshots/create.png" alt="SnipZip create archives screen" />
+        <picture>
+          <source type="image/webp" srcset="assets/screenshots/create-640.webp 640w, assets/screenshots/create-960.webp 960w, assets/screenshots/create-1280.webp 1280w" sizes="(max-width: 980px) calc(100vw - 36px), 55vw" />
+          <img src="assets/screenshots/create.png" width="1602" height="1414" fetchpriority="high" decoding="async" alt="SnipZip create archives screen" />
+        </picture>
       </div>
     </section>
 
@@ -86,7 +102,10 @@
 
     <section id="features" class="section-grid reverse">
       <div class="screenshot-card">
-        <img src="assets/screenshots/filter_extract.png" alt="SnipZip filtering archive items for selective extraction" />
+        <picture>
+          <source type="image/webp" srcset="assets/screenshots/filter-extract-640.webp 640w, assets/screenshots/filter-extract-960.webp 960w, assets/screenshots/filter-extract-1280.webp 1280w" sizes="(max-width: 980px) calc(100vw - 36px), 50vw" />
+          <img src="assets/screenshots/filter_extract.png" width="1864" height="1624" loading="lazy" decoding="async" alt="SnipZip filtering archive items for selective extraction" />
+        </picture>
       </div>
       <div class="copy">
         <p class="eyebrow">Search and selective extraction</p>
@@ -112,13 +131,19 @@
         </ul>
       </div>
       <div class="screenshot-card">
-        <img class="preview-composition" src="assets/screenshots/previewwindow2.png" alt="SnipZip preview window showing an archive item" />
+        <picture>
+          <source type="image/webp" srcset="assets/screenshots/preview-window-640.webp 640w, assets/screenshots/preview-window-960.webp 960w, assets/screenshots/preview-window-1280.webp 1280w" sizes="(max-width: 980px) calc(100vw - 36px), 50vw" />
+          <img class="preview-composition" src="assets/screenshots/previewwindow2.png" width="2282" height="1436" loading="lazy" decoding="async" alt="SnipZip preview window showing an archive item" />
+        </picture>
       </div>
     </section>
 
     <section class="section-grid reverse">
       <div class="screenshot-card">
-        <img src="assets/screenshots/nested-archive.png" alt="SnipZip browsing a BZ2 archive nested inside another archive" />
+        <picture>
+          <source type="image/webp" srcset="assets/screenshots/nested-archive-640.webp 640w, assets/screenshots/nested-archive-960.webp 960w, assets/screenshots/nested-archive-1280.webp 1280w" sizes="(max-width: 980px) calc(100vw - 36px), 50vw" />
+          <img src="assets/screenshots/nested-archive.png" width="1864" height="1624" loading="lazy" decoding="async" alt="SnipZip browsing a BZ2 archive nested inside another archive" />
+        </picture>
       </div>
       <div class="copy">
         <p class="eyebrow">Nested archives <span class="feature-badge">Pro</span></p>
@@ -139,8 +164,9 @@
       <div class="format-hero-pills" aria-label="Popular supported formats">
         <span>ZIP</span><span>7Z</span><span>RAR</span><span>TAR</span><span>ISO</span><span>CAB</span><span>+ many more</span>
       </div>
-      <p class="format-support-line">Open and extract 20+ archive formats.*</p>
+      <p class="format-support-line">Open and extract 35+ archive and compression formats.*</p>
       <p class="format-footnote">* Includes ZIP, 7Z, RAR, TAR, ISO, CAB, and more. Create additional archive formats with SnipZip Pro.</p>
+      <a class="button secondary format-details-link" href="formats.html">See every supported format</a>
     </section>
 
     <section class="section-grid">
@@ -156,7 +182,10 @@
       </div>
       <div class="screenshot-card quick-look-card">
         <div class="quick-look-window">
-          <img class="quick-look-screenshot" src="assets/screenshots/quickLook_preview2.png" alt="Finder Quick Look preview showing the files and folders inside a ZIP archive" />
+          <picture>
+            <source type="image/webp" srcset="assets/screenshots/quick-look-preview-640.webp 640w, assets/screenshots/quick-look-preview-960.webp 960w, assets/screenshots/quick-look-preview-1280.webp 1280w" sizes="(max-width: 980px) calc(100vw - 36px), 50vw" />
+            <img class="quick-look-screenshot" src="assets/screenshots/quickLook_preview2.png" width="1770" height="1376" loading="lazy" decoding="async" alt="Finder Quick Look preview showing the files and folders inside a ZIP archive" />
+          </picture>
         </div>
       </div>
     </section>
@@ -174,13 +203,19 @@
         <p class="availability-note">Available in Apple Shortcuts on macOS 26 and later. Pro adds previews, advanced format creation and saved workflows.</p>
       </div>
       <div class="screenshot-card">
-        <img src="assets/screenshots/shortcuts.png" alt="Apple Shortcuts showing SnipZip archive actions and an Extract Project Archive shortcut" />
+        <picture>
+          <source type="image/webp" srcset="assets/screenshots/shortcuts-640.webp 640w, assets/screenshots/shortcuts-960.webp 960w, assets/screenshots/shortcuts-1280.webp 1280w" sizes="(max-width: 980px) calc(100vw - 36px), 50vw" />
+          <img src="assets/screenshots/shortcuts.png" width="1724" height="1024" loading="lazy" decoding="async" alt="Apple Shortcuts showing SnipZip archive actions and an Extract Project Archive shortcut" />
+        </picture>
       </div>
     </section>
 
     <section class="section-grid reverse">
       <div class="screenshot-card">
-        <img class="workflow-screenshot" src="assets/screenshots/workflow builder.png" alt="SnipZip Workflow Builder showing archive actions and export options" />
+        <picture>
+          <source type="image/webp" srcset="assets/screenshots/workflow-builder-640.webp 640w, assets/screenshots/workflow-builder-960.webp 960w, assets/screenshots/workflow-builder-1280.webp 1280w" sizes="(max-width: 980px) calc(100vw - 36px), 50vw" />
+          <img class="workflow-screenshot" src="assets/screenshots/workflow-builder.png" width="2184" height="1568" loading="lazy" decoding="async" alt="SnipZip Workflow Builder showing archive actions and export options" />
+        </picture>
       </div>
       <div class="copy">
         <p class="eyebrow">Workflow Builder <span class="feature-badge">Pro</span></p>
@@ -243,13 +278,14 @@
       <h2>Ready to try SnipZip?</h2>
       <p>Download SnipZip free from the Mac App Store.</p>
       <a class="app-store-badge-link" href="https://apps.apple.com/us/app/snipzip/id6782188699?mt=12" aria-label="Download SnipZip on the Mac App Store">
-        <img class="app-store-badge" src="https://tools.applemediaservices.com/api/badges/download-on-the-mac-app-store/black/en-us?size=250x83" alt="Download on the Mac App Store" />
+        <img class="app-store-badge" src="https://tools.applemediaservices.com/api/badges/download-on-the-mac-app-store/black/en-us?size=250x83" width="250" height="83" loading="lazy" decoding="async" alt="Download on the Mac App Store" />
       </a>
     </section>
   </main>
 
   <footer>
     <span>© 2026 iRand OÜ • SnipZip</span>
+    <a href="formats.html">Formats</a>
     <a href="faq.html">FAQ</a>
     <a href="privacy.html">Privacy Policy</a>
     <a href="terms.html">Terms</a>

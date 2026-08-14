@@ -22,22 +22,34 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./favicon.png?v=4" />
   <link rel="apple-touch-icon" href="./assets/icons/apple-touch-icon.png?v=4" />
   <link rel="manifest" href="./site.webmanifest?v=4" />
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="styles.css?v=11" />
 </head>
 <body>
   <header class="site-header">
     <a class="brand" href="index.html#top" aria-label="SnipZip home">
-      <span class="app-icon"><img src="assets/icons/app-icon.png" alt="" /></span>
+      <span class="app-icon"><img src="assets/icons/app-icon-84.webp" width="84" height="84" alt="" /></span>
       <span>SnipZip</span>
     </a>
-    <nav>
+    <nav class="desktop-nav" aria-label="Primary navigation">
       <a href="index.html#features">Features</a>
-      <a href="index.html#formats">Formats</a>
+      <a href="formats.html">Formats</a>
       <a href="index.html#pro">Pro</a>
       <a href="faq.html" aria-current="page">FAQ</a>
       <a href="index.html#privacy">Privacy</a>
     </nav>
-    <a class="header-cta" href="https://apps.apple.com/us/app/snipzip/id6782188699?mt=12">Download</a>
+    <div class="header-actions">
+      <a class="header-cta" href="https://apps.apple.com/us/app/snipzip/id6782188699?mt=12">Download</a>
+      <details class="mobile-menu">
+        <summary>Menu</summary>
+        <nav aria-label="Mobile navigation">
+          <a href="index.html#features">Features</a>
+          <a href="formats.html">Formats</a>
+          <a href="index.html#pro">Pro</a>
+          <a href="faq.html" aria-current="page">FAQ</a>
+          <a href="index.html#privacy">Privacy</a>
+        </nav>
+      </details>
+    </div>
   </header>
 
   <main class="faq-page">
@@ -59,7 +71,7 @@
       <details class="faq-item">
         <summary>Which archive formats can SnipZip open?</summary>
         <div class="faq-answer">
-          <p>SnipZip can open, browse, and extract more than 20 archive formats, including ZIP, 7Z, RAR, TAR, ISO, and CAB. ZIP creation is included for free, while SnipZip Pro adds more creation formats.</p>
+          <p>SnipZip can open, browse, and extract more than 35 archive and compression formats, including ZIP, 7Z, RAR, TAR, ISO, and CAB. ZIP creation is included for free, while SnipZip Pro adds more creation formats. See the <a href="formats.html">complete format list</a>.</p>
         </div>
       </details>
 
@@ -138,6 +150,7 @@
 
   <footer>
     <span>© 2026 iRand OÜ • SnipZip</span>
+    <a href="formats.html">Formats</a>
     <a href="faq.html" aria-current="page">FAQ</a>
     <a href="privacy.html">Privacy Policy</a>
     <a href="terms.html">Terms</a>
