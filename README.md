@@ -12,7 +12,7 @@
 <p align="center">
   <a href="https://snipzip.app">Website</a> •
   <a href="https://github.com/snipzip/snipzip/issues">Report a Bug</a> •
-  <a href="https://github.com/snipzip/snipzip/discussions">Discussions</a> •
+  <a href="https://github.com/snipzip/snipzip/discussions">Discussions</a>
 </p>
 
 ---
