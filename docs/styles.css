@@ -233,7 +233,7 @@ h1::first-line, h2::first-line { color: var(--text); }
 
 .feature-strip {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   gap: 16px;
   margin: -24px 0 48px;
 }
@@ -320,6 +320,71 @@ h1::first-line, h2::first-line { color: var(--text); }
   margin: 0 auto;
   padding-top: 80px;
 }
+.release-notes-page {
+  max-width: 1040px;
+  margin: 0 auto;
+  padding-top: 64px;
+}
+.release-notes-hero {
+  max-width: 900px;
+  padding: 36px 0 30px;
+}
+.release-notes-hero h1 {
+  margin-bottom: 20px;
+  font-size: clamp(42px, 6vw, 76px);
+  line-height: 1.02;
+}
+.release-notes-hero .lede { max-width: 780px; }
+.release-history-note {
+  margin: 0 0 22px;
+  color: var(--dim);
+  font-size: 14px;
+  line-height: 1.5;
+}
+.release-notes-list { display: grid; gap: 14px; }
+.release-note {
+  padding: clamp(22px, 4vw, 34px);
+  border: 1px solid var(--stroke);
+  border-radius: 20px;
+  background: var(--card2);
+}
+.release-note h2 {
+  margin: 0 0 14px;
+  font-size: clamp(25px, 3vw, 34px);
+  line-height: 1.15;
+  letter-spacing: -.025em;
+}
+.release-subtitle {
+  color: var(--dim);
+  font-size: .72em;
+  font-weight: 600;
+  letter-spacing: 0;
+}
+.release-note ul {
+  display: grid;
+  gap: 10px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.release-note li {
+  position: relative;
+  padding-left: 18px;
+  color: var(--muted);
+  font-size: 16px;
+  line-height: 1.65;
+}
+.release-note li::before {
+  position: absolute;
+  top: .72em;
+  left: 0;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #9cc6ff;
+  content: "";
+}
+.release-note li strong { color: var(--text); }
 .formats-hero {
   max-width: 1000px;
   padding: 70px 0 54px;
@@ -630,6 +695,11 @@ footer {
   }
   .section-grid, .section-grid.reverse, .comparison { grid-template-columns: 1fr; }
   .feature-strip { grid-template-columns: 1fr 1fr; }
+  .feature-strip > div:last-child {
+    grid-column: 1 / -1;
+    width: calc(50% - 8px);
+    justify-self: center;
+  }
   .format-summary { grid-template-columns: 1fr; margin-bottom: 70px; }
 }
 @media (max-width: 560px) {
@@ -639,6 +709,7 @@ footer {
   .app-icon { width: 36px; height: 36px; border-radius: 10px; }
   .header-cta { padding-inline: 11px; }
   .feature-strip { grid-template-columns: 1fr; }
+  .feature-strip > div:last-child { grid-column: auto; width: auto; }
   .format-hero-pills span { flex: 1 1 calc(50% - 12px); min-width: 0; }
   .faq-page { padding-top: 44px; }
   .faq-hero { padding-top: 34px; }
@@ -646,6 +717,7 @@ footer {
   .faq-item summary::after { right: 20px; }
   .faq-answer { padding: 20px; }
   .formats-page { padding-top: 34px; }
+  .release-notes-page { padding-top: 34px; }
   .formats-hero { padding-top: 46px; }
   .format-table-wrap { margin-inline: -2px; }
   .error-page section { padding: 64px 0; }

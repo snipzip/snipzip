@@ -23,7 +23,7 @@
   <link rel="apple-touch-icon" href="./assets/icons/apple-touch-icon.png?v=4" />
   <link rel="manifest" href="./site.webmanifest?v=4" />
   <link rel="preconnect" href="https://tools.applemediaservices.com" crossorigin />
-  <link rel="stylesheet" href="styles.css?v=11" />
+  <link rel="stylesheet" href="styles.css?v=13" />
   <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -98,6 +98,7 @@
       <div><strong>Browse</strong><span>Look inside before extracting.</span></div>
       <div><strong>Search</strong><span>Find files instantly.</span></div>
       <div><strong>Extract</strong><span>Choose only what you need.</span></div>
+      <div><strong>Edit</strong><span>Add or remove. Save a copy.</span></div>
     </section>
 
     <section id="features" class="section-grid reverse">
@@ -149,11 +150,11 @@
         <p class="eyebrow">Nested archives <span class="feature-badge">Pro</span></p>
         <h2>Open archives inside archives.</h2>
         <p>Browse through nested archives in place, without extracting each layer to your Mac first.</p>
-        <ul class="check-list">
-          <li>Inspect nested files before extracting</li>
-          <li>Keep your workspace free of temporary folders</li>
-          <li>Extract only the files you need</li>
-        </ul>
+        <div class="mini-features">
+          <div><strong>Browse inside archives</strong><span>Open supported nested archives in place.</span></div>
+          <div><strong>Skip temporary folders</strong><span>Browse without extracting each layer.</span></div>
+          <div><strong>Extract what you need</strong><span>Save only selected files and folders.</span></div>
+        </div>
       </div>
     </section>
 
@@ -172,12 +173,12 @@
     <section class="section-grid">
       <div class="copy">
         <p class="eyebrow">Finder Quick Look</p>
-        <h2>Preview archives without opening them.</h2>
-        <p>Select an archive in Finder and press Space to see its contents, folder structure, sizes and modified dates at a glance.</p>
+        <h2>Preview archives and folders in Finder.</h2>
+        <p>Select archives or folders in Finder and press Space to preview their contents without opening SnipZip. SnipZip Pro also lets you browse nested archives.</p>
         <ul class="check-list">
-          <li>Inspect archive contents straight from Finder</li>
-          <li>Browse folders without opening the archive</li>
-          <li>List nested archives with SnipZip Pro</li>
+          <li>See archive contents, sizes, and modified dates</li>
+          <li>Preview supported folders directly in Finder</li>
+          <li>Browse nested archives with SnipZip Pro</li>
         </ul>
       </div>
       <div class="screenshot-card quick-look-card">
@@ -190,16 +191,35 @@
       </div>
     </section>
 
+    <section class="section-grid reverse">
+      <div class="screenshot-card">
+        <picture>
+          <source type="image/webp" srcset="assets/screenshots/zip-editing-640.webp 640w, assets/screenshots/zip-editing-960.webp 960w, assets/screenshots/zip-editing-1280.webp 1280w" sizes="(max-width: 980px) calc(100vw - 36px), 50vw" />
+          <img src="assets/screenshots/zip-editing.png" width="1992" height="1624" loading="lazy" decoding="async" alt="SnipZip ZIP editing mode with files and folders staged to create a new archive copy" />
+        </picture>
+      </div>
+      <div class="copy">
+        <p class="eyebrow">ZIP editing <span class="feature-badge">Pro</span></p>
+        <h2>Edit ZIP archives.</h2>
+        <p>Add or remove items in supported ZIPs, then save a copy.</p>
+        <div class="mini-features">
+          <div><strong>Add files and folders</strong><span>Drag them into the archive.</span></div>
+          <div><strong>Remove items</strong><span>Stage removals before saving.</span></div>
+          <div><strong>Save a copy</strong><span>The original archive stays unchanged.</span></div>
+        </div>
+      </div>
+    </section>
+
     <section class="section-grid">
       <div class="copy">
         <p class="eyebrow">Apple Shortcuts</p>
         <h2>Put archive work on autopilot.</h2>
         <p>Use SnipZip actions in Apple Shortcuts to create archives, inspect their contents, and extract exactly the files you need.</p>
-        <div class="mini-features">
-          <div><strong>Create and extract</strong><span>Build repeatable archive tasks into your shortcuts.</span></div>
-          <div><strong>Inspect and search</strong><span>Check archive contents before your shortcut extracts anything.</span></div>
-          <div><strong>Stay in control</strong><span>Choose destinations, matching files and folder handling.</span></div>
-        </div>
+        <ul class="check-list">
+          <li>Create and extract archive tasks</li>
+          <li>Inspect and search archive contents</li>
+          <li>Choose destinations, matching files and folder handling</li>
+        </ul>
         <p class="availability-note">Available in Apple Shortcuts on macOS 26 and later. Pro adds previews, advanced format creation and saved workflows.</p>
       </div>
       <div class="screenshot-card">
@@ -221,11 +241,11 @@
         <p class="eyebrow">Workflow Builder <span class="feature-badge">Pro</span></p>
         <h2>Build archive workflows that run your way.</h2>
         <p>Chain archive actions into a repeatable workflow, then export the final result with the format and options you choose.</p>
-        <div class="mini-features">
-          <div><strong>Compose actions</strong><span>Combine compression, archive creation and export steps.</span></div>
-          <div><strong>Set the order</strong><span>Arrange every action before the final export.</span></div>
-          <div><strong>Reuse the workflow</strong><span>Save a dependable process for recurring archive jobs.</span></div>
-        </div>
+        <ul class="check-list">
+          <li>Combine compression, archive creation and export</li>
+          <li>Arrange actions in your preferred order</li>
+          <li>Save workflows for recurring tasks</li>
+        </ul>
       </div>
     </section>
 
@@ -241,10 +261,11 @@
           <ul>
             <li>Create ZIP archives</li>
             <li>Browse, search and extract archives</li>
-            <li>Open encrypted archives</li>
-            <li>Password-protected extraction</li>
+            <li>Selective extraction and drag-out</li>
+            <li>Open and extract encrypted archives</li>
             <li>Finder integration</li>
             <li>Finder Quick Look archive previews</li>
+            <li>Finder Quick Look folder previews</li>
             <li>Apple Shortcuts: create, inspect and extract</li>
           </ul>
         </div>
@@ -253,8 +274,9 @@
           <ul>
             <li>Everything in Free</li>
             <li>Create 7Z, TAR, ISO and more</li>
+            <li>Edit supported ZIP archives and drag-in</li>
             <li>Create password-protected archives</li>
-            <li>Split archives</li>
+            <li>Create split archives</li>
             <li>Preview files in archives</li>
             <li>Browse nested archives</li>
             <li>List nested archive contents in Quick Look</li>
@@ -287,6 +309,7 @@
     <span>© 2026 iRand OÜ • SnipZip</span>
     <a href="formats.html">Formats</a>
     <a href="faq.html">FAQ</a>
+    <a href="release-notes.html">Release Notes</a>
     <a href="privacy.html">Privacy Policy</a>
     <a href="terms.html">Terms</a>
     <a href="https://github.com/snipzip/snipzip">GitHub</a>
