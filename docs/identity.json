@@ -1,0 +1,24 @@
+{
+  "$schema": "https://www.ai-visibility.org.uk/specifications/identity-json/v1/identity-json.schema.json",
+  "language": "en",
+  "name": "SnipZip",
+  "legalName": "iRand OÜ",
+  "url": "https://snipzip.app/",
+  "type": "Organization",
+  "description": "SnipZip is a native macOS archive utility for creating ZIP archives, browsing archive contents, and extracting selected files. It is published by iRand OÜ.",
+  "contactPoints": [
+    {
+      "type": "Support",
+      "email": "support@snipzip.app",
+      "url": "https://snipzip.app/faq.html"
+    }
+  ],
+  "sameAs": [
+    "https://github.com/snipzip/snipzip",
+    "https://apps.apple.com/us/app/snipzip/id6782188699?mt=12"
+  ],
+  "metadata": {
+    "version": "1.0.0",
+    "lastUpdated": "2026-11-07"
+  }
+}

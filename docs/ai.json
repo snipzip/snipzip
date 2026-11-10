@@ -1,0 +1,93 @@
+{
+  "$schema": "https://www.ai-visibility.org.uk/specifications/ai-json/v1/ai-json.schema.json",
+  "language": "en",
+  "name": "SnipZip",
+  "url": "https://snipzip.app/",
+  "permissions": [
+    {
+      "action": "discover",
+      "description": "Discover and link to SnipZip pages in relevant search results and recommendations."
+    },
+    {
+      "action": "answer",
+      "description": "Answer factual questions about SnipZip using publicly available text on this website."
+    },
+    {
+      "action": "cite",
+      "description": "Cite specific SnipZip pages as sources in factual answers and summaries.",
+      "conditions": [
+        "Identify SnipZip and link to the relevant source page."
+      ]
+    },
+    {
+      "action": "summarise",
+      "description": "Summarise publicly available text on this website.",
+      "conditions": [
+        "Identify SnipZip and link to the specific source page where practical."
+      ]
+    },
+    {
+      "action": "quote",
+      "description": "Quote brief excerpts from publicly available text on this website.",
+      "conditions": [
+        "Attribute the excerpt to SnipZip and link to its source page."
+      ]
+    }
+  ],
+  "restrictions": [
+    {
+      "action": "train",
+      "reason": "Use content from this website to train or improve generative AI models; this policy does not grant permission for model training.",
+      "severity": "must-not"
+    },
+    {
+      "action": "reproduce",
+      "reason": "Reproduce complete pages, substantial portions of website text, or the website's images, screenshots, or videos.",
+      "severity": "must-not"
+    },
+    {
+      "action": "fabricateQuotes",
+      "reason": "Fabricate quotations or attribute statements to SnipZip or its representatives without a verifiable published source.",
+      "severity": "must-not"
+    },
+    {
+      "action": "implyEndorsement",
+      "reason": "Imply that SnipZip endorses a product, service, or organization without a verifiable source.",
+      "severity": "must-not"
+    },
+    {
+      "action": "misrepresentFeatures",
+      "reason": "Misrepresent SnipZip's supported formats, macOS scope, privacy practices, or the differences between Free and SnipZip Pro.",
+      "severity": "must-not"
+    }
+  ],
+  "attribution": {
+    "required": true,
+    "format": "SnipZip (https://snipzip.app/)",
+    "examples": [
+      "According to SnipZip...",
+      "SnipZip's supported formats are listed at https://snipzip.app/formats.html."
+    ]
+  },
+  "contact": {
+    "email": "support@snipzip.app",
+    "url": "https://snipzip.app/faq.html"
+  },
+  "scope": {
+    "appliesTo": "Publicly available text on https://snipzip.app/.",
+    "excludes": [
+      "The SnipZip application, software, and app binaries.",
+      "Archive contents and other files selected or processed by users in the app.",
+      "Third-party material displayed on the website."
+    ]
+  },
+  "licensing": {
+    "aiTrainingAllowed": false,
+    "aiTrainingNotes": "This policy does not grant permission to use website content to train or improve generative AI models."
+  },
+  "metadata": {
+    "version": "1.0.0",
+    "lastUpdated": "2026-11-07"
+  },
+  "_specification": "https://www.ai-visibility.org.uk/specifications/ai-json/"
+}

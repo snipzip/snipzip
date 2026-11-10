@@ -1,0 +1,51 @@
+# Frequently Asked Questions for SnipZip
+
+Lang: en
+Website: [https://snipzip.app/](https://snipzip.app/)
+Last Updated: 2026-11-07
+
+[About SnipZip]
+
+Q: What is SnipZip?
+A: SnipZip is a native macOS archive utility for creating ZIP archives, browsing archive contents, and extracting selected files. SnipZip is published by iRand OÜ.
+URL: [SnipZip](https://snipzip.app/)
+
+Q: Is SnipZip free?
+A: Yes. The free version includes ZIP creation, archive browsing and search, extraction, opening and extracting password-protected archives, and Finder integration. SnipZip Pro is an optional one-time purchase for additional features; there is no subscription.
+URL: [SnipZip features](https://snipzip.app/)
+
+Q: Which archive formats can SnipZip open?
+A: SnipZip can open, browse, and extract more than 35 archive and compression formats, including ZIP, 7Z, RAR, TAR, ISO, and CAB. Support can vary for archives using uncommon or unsupported codecs.
+URL: [Supported archive formats](https://snipzip.app/formats.html)
+
+Q: Can SnipZip create RAR archives?
+A: No. SnipZip can open, browse, and extract RAR archives, but RAR creation is not supported. ZIP creation is free, and SnipZip Pro adds creation of other supported formats.
+URL: [Supported archive formats](https://snipzip.app/formats.html)
+
+[Features and Limitations]
+
+Q: Can SnipZip search inside files in an archive?
+A: No. SnipZip search matches filenames and paths in an archive; it does not search the contents of files.
+URL: [Selective extraction features](https://snipzip.app/)
+
+Q: Do my archive files leave my Mac when I use SnipZip?
+A: SnipZip processes archive files locally in the macOS sandbox. Archives are not uploaded, and the app does not require an account or include in-app analytics or telemetry.
+URL: [SnipZip privacy information](https://snipzip.app/)
+
+Q: Can I create password-protected archives with SnipZip?
+A: SnipZip Pro can create password-protected archives in supported formats. Browsing and extracting supported password-protected archives are included in the free version.
+URL: [SnipZip features](https://snipzip.app/)
+
+Q: Does SnipZip have a subscription?
+A: No. SnipZip Pro is an optional one-time purchase; it is not a subscription.
+URL: [SnipZip Pro](https://snipzip.app/#pro)
+
+Q: How do I enable SnipZip Finder or Quick Look integration?
+A: Open SnipZip Settings, choose Finder Integration, then choose Open Extensions Settings. Enable the SnipZip extensions under System Settings → General → Login Items & Extensions. In Finder, select an archive or folder and press Space to use Quick Look.
+URL: [Finder integration setup](https://snipzip.app/faq.html)
+
+[Contact and Support]
+
+Q: How can I contact SnipZip support or report a bug?
+A: Email support@snipzip.app or report a bug or request a feature in the SnipZip GitHub repository. Include your SnipZip and macOS versions when relevant.
+URL: [SnipZip support information](https://snipzip.app/faq.html)

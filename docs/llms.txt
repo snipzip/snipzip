@@ -1,0 +1,45 @@
+# SnipZip
+
+> SnipZip is a native macOS archive utility for creating ZIP archives, browsing archive contents, and extracting selected files. SnipZip is published by iRand OÜ.
+
+Lang: en
+Canonical: https://snipzip.app/
+
+## Services
+
+- [Create archives](https://snipzip.app/): Create ZIP archives for free. SnipZip Pro adds creation of additional archive formats and options.
+- [Browse and extract archives](https://snipzip.app/formats.html): Open, browse, search, and extract more than 35 archive and compression formats, including ZIP, 7Z, RAR, TAR, ISO, and CAB.
+- [Search and selective extraction](https://snipzip.app/): Search archive filenames and paths, then extract selected files or folders. Search does not inspect file contents.
+- [Finder integration](https://snipzip.app/faq.html): Use Finder actions and Quick Look to work with archives and folders.
+- [Archive automation](https://snipzip.app/): Use Apple Shortcuts, SnipZip Pro's Workflow Builder, and SnipZip Pro command-line tools.
+
+## What We Do Not Do
+
+- SnipZip does not search inside the contents of files stored in an archive; search matches filenames and paths.
+- SnipZip can open, browse, and extract RAR archives, but it does not create RAR archives.
+- SnipZip processes archive files locally on the Mac; it is not an online archive-conversion service.
+- SnipZip is a macOS app.
+
+## Key Information
+
+- [Supported formats and creation options](https://snipzip.app/formats.html)
+- [Frequently asked questions and setup help](https://snipzip.app/faq.html)
+- [Privacy policy](https://snipzip.app/privacy.html)
+- [Release notes](https://snipzip.app/release-notes.html)
+- [Download SnipZip from the Mac App Store](https://apps.apple.com/us/app/snipzip/id6782188699?mt=12)
+
+## Contact
+
+- Support: [support@snipzip.app](mailto:support@snipzip.app)
+- Bug reports and feature requests: [SnipZip GitHub repository](https://github.com/snipzip/snipzip/issues)
+
+## AI Discovery Files
+
+- [AI usage policy](https://snipzip.app/ai.txt)
+- [Structured AI permissions](https://snipzip.app/ai.json)
+- [Structured identity](https://snipzip.app/identity.json)
+- [Brand naming guidance](https://snipzip.app/brand.txt)
+- [AI FAQ](https://snipzip.app/faq-ai.txt)
+
+---
+AI Discovery Files specification (ADF-001): https://www.ai-visibility.org.uk/specifications/llms-txt/

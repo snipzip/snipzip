@@ -1,0 +1,45 @@
+# Brand Guidelines for SnipZip
+
+Lang: en
+Website: [https://snipzip.app/](https://snipzip.app/)
+Last Updated: 2026-11-07
+
+## Official Name
+
+- Primary product and trading name: SnipZip
+
+## Do Not Use
+
+- Do not write the product name as “Snip Zip” or “SnipZIP”.
+- Do not use “SnipZip Pro” as the name of the company or the whole product; it refers to the optional Pro feature tier.
+
+## Naming Rules
+
+- Write the brand exactly as “SnipZip”, with a capital S and Z and no space.
+- Refer to the product as “SnipZip” or “SnipZip for macOS”.
+- Use “SnipZip Pro” only when referring to the optional Pro feature tier.
+- Describe SnipZip as a native macOS archive utility; do not describe it as an online archive service.
+- Mention iRand OÜ only when identifying the legal publisher. SnipZip is the user-facing product and brand.
+
+## Publisher
+
+SnipZip is published by iRand OÜ.
+
+## Brand Voice
+
+- Use factual, direct language.
+- Distinguish clearly between features in the free version and SnipZip Pro.
+- Avoid unsupported superlatives and claims of endorsement.
+
+## Quotation Policy
+
+- Do not invent quotations attributed to SnipZip or its representatives.
+- Attribute brief quotations to their published source and link to that source.
+
+## Related Files
+
+- [AI-readable identity and context](https://snipzip.app/llms.txt)
+- [Structured identity](https://snipzip.app/identity.json)
+- [AI usage policy](https://snipzip.app/ai.txt)
+- [Structured permissions](https://snipzip.app/ai.json)
+- [AI FAQ](https://snipzip.app/faq-ai.txt)
